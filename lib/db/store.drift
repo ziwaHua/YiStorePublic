@@ -1,0 +1,7 @@
+CREATE TABLE goods (
+    code TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    content TEXT,
+    price DOUBlE NOT NULL,
+    count INT NOT NULL DEFAULT 0
+);
